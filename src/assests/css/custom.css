@@ -1,0 +1,68 @@
+.avalanche {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6px;
+  background: #353945 !important;
+  border: none !important;
+  font-size: 15px !important;
+}
+.avalanche-button {
+  padding-left: 6px;
+}
+.user-wallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000 !important;
+  border: blue !important;
+  font-size: 15px !important;
+}
+.dropdown-main {
+  display: flex;
+  justify-content: space-between;
+}
+.wallet-user-id {
+  white-space: nowrap;
+  padding-left: 6px;
+  text-overflow: ellipsis;
+}
+.custom-main {
+  margin-top: 40px;
+}
+.arrow-custom-main {
+  display: flex;
+}
+.test-link {
+  margin-top: 20px;
+}
+.link-input {
+  margin-top: 20px;
+  width: 250px;
+  padding: 8px;
+  background: #242731;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+::placeholder {
+  color: #808191;
+  opacity: 1; /* Firefox */
+}
+.custom-cancel-main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cancel-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3px 8px;
+  width: 140px;
+  height: 36px;
+  background: #242731;
+  border-radius: 10px;
+  cursor: pointer;
+}

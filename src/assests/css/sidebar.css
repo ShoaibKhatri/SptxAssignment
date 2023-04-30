@@ -1,0 +1,86 @@
+.sidebar-main-open {
+  width: 228px;
+  position: relative;
+  height: 100%;
+  border-right: 0.4px solid grey;
+  padding-top: 9px;
+}
+.sidebar-main-close {
+  width: 50px;
+  padding-top: 9px;
+}
+.name-main {
+  width: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading-menu-main {
+  padding: 10px;
+}
+.name-text {
+  font-size: 20px;
+}
+.menuitem-image {
+  width: 20px;
+  height: 20px;
+}
+.menu-item {
+  padding: 10px;
+  color: #353945;
+}
+.menu-item:hover {
+  cursor: pointer;
+  background: #353945;
+  color: white;
+}
+.btn-rectangle {
+  width: 85px;
+  padding: 7px;
+  font-size: 13px;
+}
+/* .buy-btn-main {
+  position: absolute;
+  bottom: 0;
+} */
+.sidebar-bottom-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+.btn-dollar {
+  color: white;
+  background-color: #353945;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.buy-sxyz {
+  border-radius: 10px;
+  background-color: #a3e3ff;
+  color: #3772ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dark-light-toggle-main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #353945;
+  border-radius: 15px;
+}
+.dark-img {
+  width: 23px;
+}
+.world-img {
+  padding-left: 15px;
+  padding-right: 10px;
+  cursor: pointer;
+}
